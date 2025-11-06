@@ -1,0 +1,39 @@
+# Nombre de tu workflow (puedes cambiarlo)
+name: Construir Repositorio APT
+
+# Define cuándo se ejecutará esta acción (ej. al hacer push a 'main')
+on:
+  push:
+    branches:
+      - main
+
+# Define los trabajos (jobs) que se ejecutarán
+jobs:
+  build:
+    # El tipo de máquina que usará la acción
+    runs-on: ubuntu-latest
+
+    # Los pasos (steps) que seguirá el trabajo
+    steps:
+      # 1. Un paso necesario para clonar tu repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. El paso que tú tienes
+      ### TU FRAGMENTO VA AQUÍ ###
+      - name: Create APT repository
+        uses: morph027/apt-repo-action@v3.7
+        with:
+          # (Añade aquí las opciones 'with:' que necesites)
+          distribution: 'stable'
+          component: 'main'
+          architectures: 'amd64'
+
+      # 3. (Necesitarás un paso adicional para subir
+      #    los archivos generados a GitHub Pages)
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: repo
