@@ -14,11 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # --- ⬇️ PASO CORREGIDO ⬇️ ---
-      # 2. Configura GPG Agent (ahora con mkdir)
+      # --- ⬇️ PASO CORREGIDO (VERSIÓN FINAL) ⬇️ ---
+      # 2. Configura GPG Agent (ahora con pinentry-mode)
       - name: Configure GPG Agent
         run: |
           mkdir -p ~/.gnupg
+          echo "pinentry-mode loopback" >> ~/.gnupg/gpg-agent.conf
           echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
           gpg-connect-agent reloadagent /bye
       # --- ⬆️ FIN DEL PASO CORREGIDO ⬆️ ---
