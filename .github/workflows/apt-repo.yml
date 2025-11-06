@@ -14,13 +14,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # --- ⬇️ PASO CORREGIDO (VERSIÓN FINAL) ⬇️ ---
-      # 2. Configura GPG Agent (ahora con pinentry-mode)
-      - name: Configure GPG Agent
+      # --- ⬇️ PASO CORREGIDO (VERSIÓN FINALÍSIMA) ⬇️ ---
+      # 2. Inicia y Configura GPG Agent
+      - name: Start and Configure GPG Agent
         run: |
-          mkdir -p ~/.gnupg
-          echo "pinentry-mode loopback" >> ~/.gnupg/gpg-agent.conf
+          # 1. Inicia el daemon. Esto crea ~/.gnupg
+          gpg-agent --daemon
+          
+          # 2. Escribe los archivos de configuración
+          echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
           echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+          
+          # 3. Recarga el agente (que ahora SÍ está corriendo)
           gpg-connect-agent reloadagent /bye
       # --- ⬆️ FIN DEL PASO CORREGIDO ⬆️ ---
 
