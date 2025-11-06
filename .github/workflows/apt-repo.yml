@@ -14,8 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # --- ⬇️ PASO CORREGIDO (VERSIÓN FINALÍSIMA) ⬇️ ---
-      # 2. Inicia y Configura GPG Agent
+      # 2. Inicia y Configura GPG Agent (Esta es la corrección final)
       - name: Start and Configure GPG Agent
         run: |
           # 1. Inicia el daemon. Esto crea ~/.gnupg
@@ -27,20 +26,20 @@ jobs:
           
           # 3. Recarga el agente (que ahora SÍ está corriendo)
           gpg-connect-agent reloadagent /bye
-      # --- ⬆️ FIN DEL PASO CORREGIDO ⬆️ ---
 
       # 3. Construye el repositorio
       - name: Build APT repository
         uses: morph027/apt-repo-action@v3.7
         with:
-          # ❗️ Asegúrate que este sea tu repo-name (ej. kronos)
+          # ❗️ ¡CAMBIA ESTO!
+          # Pon el 'repo-name' que usaste en el script (ej: kronos)
           repo-name: 'kronos'
           
           suite: 'stable' 
           components: 'main'
           architectures: 'amd64'
 
-          # Lee los secrets
+          # Lee los secrets GPG_PRIVATE_KEY y GPG_PASSPHRASE
           signing-key: ${{ secrets.GPG_PRIVATE_KEY }}
           signing-key-passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
