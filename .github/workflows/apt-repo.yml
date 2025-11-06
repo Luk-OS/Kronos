@@ -14,19 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # --- ⬇️ PASO NUEVO AÑADIDO ⬇️ ---
-      # 2. Configura GPG Agent para permitir Pinentry no interactivo
+      # --- ⬇️ PASO CORREGIDO ⬇️ ---
+      # 2. Configura GPG Agent (ahora con mkdir)
       - name: Configure GPG Agent
         run: |
+          mkdir -p ~/.gnupg
           echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
           gpg-connect-agent reloadagent /bye
-      # --- ⬆️ FIN DEL PASO NUEVO ⬆️ ---
+      # --- ⬆️ FIN DEL PASO CORREGIDO ⬆️ ---
 
-      # 3. Construye el repositorio (antes era el paso 2)
+      # 3. Construye el repositorio
       - name: Build APT repository
         uses: morph027/apt-repo-action@v3.7
         with:
-          # Asegúrate que este sea tu repo-name (ej. kronos)
+          # ❗️ Asegúrate que este sea tu repo-name (ej. kronos)
           repo-name: 'kronos'
           
           suite: 'stable' 
@@ -37,7 +38,7 @@ jobs:
           signing-key: ${{ secrets.GPG_PRIVATE_KEY }}
           signing-key-passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
-      # 4. Publica en GitHub Pages (antes era el paso 3)
+      # 4. Publica en GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
