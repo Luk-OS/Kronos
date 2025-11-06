@@ -1,6 +1,5 @@
 name: Build and Deploy APT Repository
 
-# Se activa cada vez que haces 'push' a la rama 'main'
 on:
   push:
     branches:
@@ -11,48 +10,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Clona el repositorio para que la Acción
-      #    pueda encontrar tus archivos .deb
+      # 1. Clona el repositorio
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Construye el repositorio APT con los inputs CORREGIDOS
+      # --- ⬇️ PASO NUEVO AÑADIDO ⬇️ ---
+      # 2. Configura GPG Agent para permitir Pinentry no interactivo
+      - name: Configure GPG Agent
+        run: |
+          echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+          gpg-connect-agent reloadagent /bye
+      # --- ⬆️ FIN DEL PASO NUEVO ⬆️ ---
+
+      # 3. Construye el repositorio (antes era el paso 2)
       - name: Build APT repository
         uses: morph027/apt-repo-action@v3.7
         with:
-          # --- Opciones del Repositorio ---
-          
-          # ❗️ CAMBIA ESTO:
-          # Pon el 'repo-name' que usaste en el script
-          # (Ej: kronos, lukos-repo)
+          # Asegúrate que este sea tu repo-name (ej. kronos)
           repo-name: 'kronos'
-
-          # El nombre de tu "suite" (ej. stable, buster, etc.)
+          
           suite: 'stable' 
-          
-          # El componente (main, universe, etc.)
           components: 'main'
-          
-          # La arquitectura
           architectures: 'amd64'
 
-          # --- Opciones de Firma GPG (Corregidas) ---
-          
-          # Lee tu clave GPG privada desde Secrets
+          # Lee los secrets
           signing-key: ${{ secrets.GPG_PRIVATE_KEY }}
-          
-          # Lee la contraseña de tu clave GPG desde Secrets
           signing-key-passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
-      # 3. Publica el repositorio en la rama 'gh-pages'
+      # 4. Publica en GitHub Pages (antes era el paso 3)
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # Token de GitHub para permitir que la acción escriba en tu repo
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # La rama donde tienes GitHub Pages activado
           publish_branch: gh-pages
-          
-          # El directorio que generó la acción anterior ('repo' por defecto)
           publish_dir: repo
