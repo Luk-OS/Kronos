@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Thu, 06 Nov 2025 23:51:44 +0000
+MD5Sum:
+ 16508f536ebb9daa47572f83bb6832fe               38 Release
+ c06497ca1b6763c4137aba7ca33189da              942 main/binary-amd64/Packages
+ aa74d4cf2b2cd49c7b822ee2353f133b              624 main/binary-amd64/Packages.gz
+SHA1:
+ 504e177b922f5a69f4443b8d4bb12ca02cd06343               38 Release
+ 787c8eff5b8a73bb15eabea0f1ebe7be7a7cc6d0              942 main/binary-amd64/Packages
+ 74659d51a98b8800f855ed65a472574574a58f41              624 main/binary-amd64/Packages.gz
+SHA256:
+ 72a21565611f5a3b5456d80415cdbf924b239c2d51ea474c10a0c06f1dd61922               38 Release
+ 935f0108f19ae439480b7520b75a802671076c6fe198f725caf9009845acbffb              942 main/binary-amd64/Packages
+ c7a13ab828cdeb2cb0286b40e750cfeeb7b1c945ef2fc6a076a3d92724e0ee94              624 main/binary-amd64/Packages.gz
+SHA512:
+ e74a6fcbfdff35db06b9adfceafcd9dc01400a3eed22352b12e58077fbc1a9a0c6993e90ec410a75c83a1a272772b2a2120862b14644423b09b4b56dca4ea350               38 Release
+ 0a8bb1b8e411e17b30310c3350cf871ad15e8196b62de2113b5c2b228dd1de9220a36f66eb0c66f560a63d7e0072572c403f7c65d5af77c0fb99eb0a5eeb1dae              942 main/binary-amd64/Packages
+ 93b77c1ee80fd10d4f8b6e9e1357a85d165d3e96db60e32c56f88ba49469b9406fc2ced56d159e0491eb9d56805c6cd40b7b247eb8b28c50f9a8442191904ff3              624 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEENN4DNo9hbN/PvBZr+Bi7SYNtvVEFAmkNNJAACgkQ+Bi7SYNt
+vVGOhxAAm9VlI+PNkGmR2M3BLRWdflboHqEB8HXGH6oBAqXUIx9PM8DxNjc4ciZJ
+YVYiOA+5E9PM/AAkgffd+7NBE2G3jIAoD6E2OcTHH5elEr4TuR9OVb/zPMtUCT8J
+sf/Z///R6jHgf2tSoTHSbnYzXNjWBAJVTVJE60vLhkjz9y2bTqJyPTfCH/H9NIk9
+SrszOjEESA8fOv0sW5NhBP67E3BcoGdpTdJEgDoD+yBhcIqyhQAbAqb8mtOXUAck
+a+agVpssr2sl5xkQDbICbg5JXX2MIg5xFRFXQeGkrYlvpIqXXkKLiF7JP1Ypui6f
+g3749A3SgLVvoGWyG95/BE5UxKezj9w+9EAEF4VYDdkrxrqZDLL6o9VMyh5rNUe9
+HSF4LX6/N3+lC9Blm7xcuBxKQq0UqbYkPkjcv4vfv0kX8sRrx8P6HogMVfdZefnO
+R7LxMCqCo2ashnBoH8ogaJ6cZz8m78Vfkhse3hh4LdWWrEZ9OqBPOugQV1wpcYxU
+ZcWKBniZrTG0d6UZbi553eeso7Gq9ugYjz5dVkTplqRHSKNZ1H43mmyrTbu6Npss
+mcJiMQoMpDQmiiUySMnHXjXjI7tzhVvSMEUPZqKJ4nhUDnh+dqLCznbNJlcbSFsx
+1p1do2IH4DcKM9ZpIjVNUOL+A3ICOJ3LO9JBYeOwqvWq2OnvQv8=
+=GVVY
+-----END PGP SIGNATURE-----
