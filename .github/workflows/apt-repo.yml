@@ -1,26 +1,62 @@
-# 2. Esta es la acción con los nombres de inputs CORREGIDOS
+name: Build and Deploy APT Repository
+
+# Se activa cada vez que haces 'push' a la rama 'main'
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clona el repositorio para que la Acción
+      #    pueda encontrar tus archivos .deb
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Construye el repositorio APT con los inputs CORREGIDOS
       - name: Build APT repository
         uses: morph027/apt-repo-action@v3.7
         with:
-          # ---- INPUTS CORREGIDOS ----
+          # --- Opciones del Repositorio ---
           
-          # 'distribution' se reemplaza por 'suite'
-          suite: 'stable'
+          # ❗️ CAMBIA ESTO:
+          # Dale un nombre a tu repositorio (ej: 'grimos-repo', 'mi-repo')
+          # Esto es crucial para crear el paquete de la clave (keyring).
+          repo-name: 'Kronos'
+
+          # (REEMPLAZA a 'distribution')
+          # El nombre de tu "suite" (ej. stable, buster, o el nombre de tu distro)
+          suite: 'stable' 
           
-          # 'component' se reemplaza por 'components' (en plural)
+          # (REEMPLAZA a 'component')
+          # El componente (main, universe, etc.)
           components: 'main'
           
+          # La arquitectura
           architectures: 'amd64'
+
+          # --- Opciones de Firma GPG (Corregidas) ---
           
-          # ¡IMPORTANTE! Añade esto. 
-          # Reemplaza 'mi-repo-apt' con el nombre de tu repositorio.
-          # Esto se usa para nombrar el paquete de la clave GPG.
-          repo-name: 'mi-repo-apt'
-          
-          # ---- NOMBRES DE GPG CORREGIDOS ----
-          
-          # 'gpg_private_key' se reemplaza por 'signing-key'
+          # (REEMPLAZA a 'gpg_private_key')
+          # Tu clave GPG privada guardada en Secrets
           signing-key: ${{ secrets.GPG_PRIVATE_KEY }}
           
-          # 'gpg_passphrase' se reemplaza por 'signing-key-passphrase'
+          # (REEMPLAZA a 'gpg_passphrase')
+          # La contraseña de tu clave GPG, guardada en Secrets
           signing-key-passphrase: ${{ secrets.GPG_PASSPHRASE }}
+
+      # 3. Publica el repositorio en la rama 'gh-pages'
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # Token de GitHub para permitir que la acción escriba en tu repo
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # La rama donde tienes GitHub Pages activado
+          publish_branch: gh-pages
+          
+          # El directorio que generó la acción anterior ('repo' por defecto)
+          publish_dir: repo
