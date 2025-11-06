@@ -23,15 +23,13 @@ jobs:
           # --- Opciones del Repositorio ---
           
           # ❗️ CAMBIA ESTO:
-          # Dale un nombre a tu repositorio (ej: 'grimos-repo', 'mi-repo')
-          # Esto es crucial para crear el paquete de la clave (keyring).
-          repo-name: 'Kronos'
+          # Pon el 'repo-name' que usaste en el script
+          # (Ej: kronos, lukos-repo)
+          repo-name: 'kronos'
 
-          # (REEMPLAZA a 'distribution')
-          # El nombre de tu "suite" (ej. stable, buster, o el nombre de tu distro)
+          # El nombre de tu "suite" (ej. stable, buster, etc.)
           suite: 'stable' 
           
-          # (REEMPLAZA a 'component')
           # El componente (main, universe, etc.)
           components: 'main'
           
@@ -40,12 +38,10 @@ jobs:
 
           # --- Opciones de Firma GPG (Corregidas) ---
           
-          # (REEMPLAZA a 'gpg_private_key')
-          # Tu clave GPG privada guardada en Secrets
+          # Lee tu clave GPG privada desde Secrets
           signing-key: ${{ secrets.GPG_PRIVATE_KEY }}
           
-          # (REEMPLAZA a 'gpg_passphrase')
-          # La contraseña de tu clave GPG, guardada en Secrets
+          # Lee la contraseña de tu clave GPG desde Secrets
           signing-key-passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
       # 3. Publica el repositorio en la rama 'gh-pages'
