@@ -7,7 +7,7 @@ Section: x11
 Maintainer: anandnet <null>
 Installed-Size: 20000
 Depends: mpv, libmpv1 | libmpv2, libappindicator3-1 | libayatana-appindicator3-1
-Filename: /mnt/5eb0c30e-baeb-4728-929a-d25f354eecde/LukOs/Luk-Os-Repo manager/repos/Kronos/pool/main/harmonymusic-1.12.1+26-linux.deb
+Filename: pool/main/harmonymusic-1.12.1+26-linux.deb
 Size: 10562032
 MD5sum: f98ca60f0317c8cec353155d4e2fe3e1
 SHA1: 7ae1305db2e1cd26c0e25582d36f1ccf23fcdf5a
