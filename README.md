@@ -1,36 +1,39 @@
 
-# Repositorio APT (Hosteado en GitHub Pages)
+# Repositorio APT oficial de LukOs
 
-Este repositorio contiene paquetes `.deb` generados automáticamente.
+Este repositorio contiene paquetes `.deb` para LukOs, hosteado en GitHub Pages.
 
-## Cómo agregar este repositorio a tu sistema (Debian/Ubuntu/LukOs)
+---
 
-Sigue estos pasos en una terminal para agregar el repositorio e instalar paquetes.
+🛠️ Instalación
 
-### 1. Descargar y agregar la Clave GPG
+### 1️⃣ Añadir la clave GPG
 
-Este comando descarga la clave pública (`public.key`) del repositorio y la guarda 
-en el directorio de confianza de `apt`.
+Descarga e instala la clave GPG pública del repositorio.
 
 ```bash
-wget -O - https://luk-os.github.io/Kronos/public.key | sudo gpg --dearmor -o /usr/share/keyrings/lukos-repo-keyring.gpg
+# Descargar e instalar la clave GPG
+sudo mkdir -p /usr/share/keyrings
+wget -qO - https://luk-os.github.io/Kronos/public.key | sudo gpg --dearmor -o /usr/share/keyrings/kronos.gpg
 ```
 
-### 2. Agregar la Fuente del Repositorio a APT
+### 2️⃣ Añadir el repositorio
 
-Esto crea un archivo de lista que le dice a `apt` dónde encontrar los paquetes.
+Añade la fuente APT a tu sistema.
 
 ```bash
-echo       "deb [arch=amd64 signed-by=/usr/share/keyrings/lukos-repo-keyring.gpg] https://luk-os.github.io/Kronos/ stable main"       | sudo tee /etc/apt/sources.list.d/lukos-repo.list > /dev/null
+# Añadir la fuente APT
+echo "deb [signed-by=/usr/share/keyrings/kronos.gpg trusted=yes] https://luk-os.github.io/Kronos/ stable main"     | sudo tee /etc/apt/sources.list.d/kronos.list
+
+# Actualizar índices
+# (El --allow-insecure-repositories es un truco para repos de GitHub Pages)
+sudo apt update --allow-insecure-repositories
 ```
 
-### 3. Actualizar e Instalar
+### 3️⃣ Instalar paquetes
 
-Actualiza tu lista de paquetes locales e instala el software que desees.
+Ahora puedes instalar paquetes desde el repositorio.
 
 ```bash
-sudo apt update
-
-# Ejemplo de instalación:
-# sudo apt install nombre-del-paquete
+sudo apt install nombre-del-paquete
 ```
