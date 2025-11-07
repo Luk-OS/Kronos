@@ -1,7 +1,7 @@
 
-# Repositorio APT oficial de LukOs
+# Repositorio APT de Kronos
 
-Este repositorio contiene paquetes `.deb` para LukOs, hosteado en GitHub Pages.
+Este repositorio contiene paquetes `.deb`, hosteado en GitHub Pages.
 
 ---
 
@@ -23,7 +23,7 @@ Añade la fuente APT a tu sistema.
 
 ```bash
 # Añadir la fuente APT
-echo "deb [signed-by=/usr/share/keyrings/kronos.gpg trusted=yes] https://luk-os.github.io/Kronos/ stable main"     | sudo tee /etc/apt/sources.list.d/kronos.list
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/kronos.gpg trusted=yes] https://luk-os.github.io/Kronos/ stable main"     | sudo tee /etc/apt/sources.list.d/kronos.list
 
 # Actualizar índices
 # (El --allow-insecure-repositories es un truco para repos de GitHub Pages)
