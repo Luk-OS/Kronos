@@ -1,17 +1,17 @@
-Package: harmonymusic
-Architecture: amd64
-Version: 1.12.1+26
+Package: webapp-manager
+Architecture: all
+Version: 1.4.3
 Priority: optional
-Essential: no
-Section: x11
-Maintainer: anandnet <null>
-Installed-Size: 20000
-Depends: mpv, libmpv1 | libmpv2, libappindicator3-1 | libayatana-appindicator3-1
-Filename: pool/main/harmonymusic-1.12.1+26-linux.deb
-Size: 10562032
-MD5sum: f98ca60f0317c8cec353155d4e2fe3e1
-SHA1: 7ae1305db2e1cd26c0e25582d36f1ccf23fcdf5a
-SHA256: 832f7aa915e55dd2f68ae1f1106476441167458039cf7caf6612f120f8405619
-SHA512: 3171feb8e19cc16665a52d72425784d94e8171a33f4492aafa22f95e2451fa5496ffa26e6abf3ab2f82b137c9fbc5f4bd10cb8a49364fa7ad3ea4d80ce071182
-Description: A cross platform app for music streaming.
+Section: admin
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 5661
+Depends: gir1.2-xapp-1.0 (>= 1.4), python3, python3-gi, python3-bs4, python3-configobj, python3-pil, python3-setproctitle, python3-tldextract, xapps-common, dconf-gsettings-backend | gsettings-backend
+Filename: pool/main/webapp-manager_1.4.3_all.deb
+Size: 71144
+MD5sum: 222181e95c8a6d954907cf71944dbeba
+SHA1: c70dc85e7d5a5ccb3c665f3393a6f5d5344b08cd
+SHA256: 11f06e495c41d959cef101e2b946d72bb417fe369c19d9fd6495dff3de8dff4b
+SHA512: 386a39af1bd6153fb6ee9b93edda4b3ce71a35043ecfb4d35c6bff684fdc1ac873510fb5779bdd42dcd9c7cf54a4d69695d3c6feb0ed950e17e3921bcd919967
+Description: Web Application Manager
+ Launch websites as if they were apps.
 
