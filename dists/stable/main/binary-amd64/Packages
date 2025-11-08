@@ -171,23 +171,6 @@ SHA512: 50831564fff2a01d845afd77b2ffd7ea7720c9e7a351d47f29bd5f8add1bd5ed66f98669
 Description: Software Sources configuration tool
  Configure the sources for installable software and updates.
 
-Package: mintupdate
-Architecture: all
-Version: 7.1.1
-Priority: optional
-Section: admin
-Maintainer: Clement Lefebvre <root@linuxmint.com>
-Installed-Size: 3914
-Depends: dconf-gsettings-backend | gsettings-backend, lsb-release, apt, aptkit, distro-info-data, psmisc, python3-apt, python3-multiprocess, python3-pycurl, python3-setproctitle, python3-xapp (>= 1.6), systemd, mint-common (>= 2.4.2), mint-mirrors, mint-upgrade-info, gir1.2-notify-0.7, gir1.2-xapp-1.0
-Filename: pool/main/mintupdate_7.1.1_all.deb
-Size: 597664
-MD5sum: acc473aa29364f3dff3223096223a15d
-SHA1: 8670391937e60c02ac2e3cf7b697e20ef29eab70
-SHA256: 364c419e862b2d470eb9f84dc3ff8632b452d15662c1e7fb4982c133d169878b
-SHA512: cb45bdc84480de2b6237445f16f66536e482cb412953844823e2490479b0198b4de87076ee4aeefec5610e8b774a22d6769fb1018f269eb7441cd44392cab895
-Description: The Linux Mint Update Manager
- Helps installing security updates and new versions of packages.
-
 Package: python2.7
 Architecture: amd64
 Version: 2.7.18-8+deb11u1
