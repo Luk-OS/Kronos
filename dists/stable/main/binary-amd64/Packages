@@ -100,6 +100,30 @@ Description: GDK Pixbuf library (transitional package)
  or until that can be done, depend on
  libgdk-pixbuf-xlib-2.0-0 | libgdk-pixbuf2.0-0.
 
+Package: libpython2.7
+Architecture: amd64
+Version: 2.7.3-6+deb7u2
+Priority: optional
+Section: libs
+Source: python2.7
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 3077
+Depends: python2.7 (= 2.7.3-6+deb7u2), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), zlib1g (>= 1:1.2.0)
+Replaces: python2.7 (<< 2.6)
+Filename: pool/main/libpython2.7_2.7.3-6+deb7u2_amd64.deb
+Size: 1207358
+MD5sum: 25a4e74e1401dbe01b8b8c56d1415a1e
+SHA1: 4f4545e8fb71b1fc3a6e2313618d3e499f6797e7
+SHA256: c71bd137f72a96f2df240f89309bf7541cb82588428daedb4834b20b01396965
+SHA512: 5b56e03ebdddbf75e0aef50951a61117dac894b06bfcd062de26b008275dad59f7a40868ee916aa6bb997fab0c96d971d43e6cca5ee5fe043fcc9cb1ea54b52f
+Description: Shared Python runtime library (version 2.7)
+ Version 2.7 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
 Package: luk-os-grub-theme
 Architecture: all
 Version: 1.0
