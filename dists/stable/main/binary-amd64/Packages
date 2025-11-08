@@ -48,6 +48,40 @@ Description: transaction based package management service
   - Support for debconf (Debian's package configuration system)
   - Support for attaching a terminal to the underlying dpkg call
 
+Package: libgdk-pixbuf2.0-0
+Architecture: amd64
+Version: 2.40.2-2build4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: gdk-pixbuf-xlib
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 22
+Depends: libgdk-pixbuf-2.0-0 (>= 2.40.0), libgdk-pixbuf-xlib-2.0-0 (>= 2.40.2-2build4)
+Filename: pool/main/libgdk-pixbuf2.0-0_2.40.2-2build4_amd64.deb
+Size: 2454
+MD5sum: 607319d6d45f0b74bef94c099a5675cb
+SHA1: a0e1e079a4376050449b554ec5b1ba88fc077c44
+SHA256: 1cbe0a6cee2904a4f4c26a1216bbce72941157a9b3fe29a8c19cd4cb146dce11
+SHA512: e20942dfbf4efdae0947b28f5a3c7e29d1bcfcc93c8148c4b3a3226560aa5cf248afbecaff56301a6c3afe3ca834a3a6cbf1607640f13056e212cc7ba7372059
+Homepage: https://www.gtk.org/
+Description: GDK Pixbuf library (transitional package)
+ The GDK Pixbuf library provides:
+  - Image loading and saving facilities.
+  - Fast scaling and compositing of pixbufs.
+  - Simple animation loading (ie. animated GIFs)
+ .
+ This transitional package depends on the main library libgdk-pixbuf-2.0-0
+ and the deprecated Xlib integration library libgdk-pixbuf-xlib-2.0-0.
+ .
+ Packages that only require the main library should depend on
+ libgdk-pixbuf-2.0-0 | libgdk-pixbuf2.0-0.
+ .
+ Packages that require the Xlib integration should port away from it,
+ or until that can be done, depend on
+ libgdk-pixbuf-xlib-2.0-0 | libgdk-pixbuf2.0-0.
+
 Package: mint-common
 Architecture: all
 Version: 2.4.8
