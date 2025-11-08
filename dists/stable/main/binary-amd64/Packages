@@ -115,6 +115,21 @@ SHA512: 12c556be237093d2d509543e4010bad60edded3e1ea7f6bc33054013b29582816d807782
 Description: Tema azul y negro para GRUB inspirado en Luk-Os
  Este paquete instala el tema de arranque Luk-Os con estilo azul-neón y fondo oscuro.
 
+Package: lukos-base
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
+Depends: base-files
+Filename: pool/main/lukos-base.deb
+Size: 1124
+MD5sum: 7f3da388a8c562bdd758f48a2d08ba2d
+SHA1: a81f9370b4dfc86e19552f40df229ec55123f9e2
+SHA256: 6bef3bc95fe6923706bbd745d0ad69115c416a42aa78e70790ce5bfa1aff9d45
+SHA512: 1b6af447a4b99baf19865612890227857aa945e4ad9650b95507783a40758afbf54cc1d339c0dcf4e4559b5522d0bdc1ff38d440b2102933dae2d5291f63c29c
+Description: Archivos base y branding del sistema Luk-OS GNU/Linux basado en Devuan.
+
 Package: mint-common
 Architecture: all
 Version: 2.4.8
