@@ -48,24 +48,6 @@ Description: transaction based package management service
   - Support for debconf (Debian's package configuration system)
   - Support for attaching a terminal to the underlying dpkg call
 
-Package: conky-manager
-Architecture: amd64
-Version: 2.4
-Priority: extra
-Section: utils
-Maintainer: Tony George <tony.george.kol@gmail.com>
-Installed-Size: 1194
-Depends: libc6 (>= 2.2.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libjson-glib-1.0-0 (>= 0.13.2), realpath, conky, p7zip-full, rsync, imagemagick
-Filename: pool/main/conky-manager-v2.4-amd64.deb
-Size: 785328
-MD5sum: 6cb5ceb88ce6e7769e4b7386fa164eae
-SHA1: 4cb775573e0e6d3ed4e3f097961baa4edb88a568
-SHA256: e2187545955c603c99201535aac4b5654826fdb1eb502def2f42b46bb27b7366
-SHA512: c3e025b08c3bd3746b4fe47455a86a4947a1704d23be1467bf7b79a99b4374fdd377266b1e04910710b554c4867b08de97b2b16c3b09b67c20be7b987e805637
-Homepage: http://teejeetech.blogspot.in/
-Description: Utility for managing Conky configuration files
- Utility for managing Conky configuration files
-
 Package: libgdk-pixbuf2.0-0
 Architecture: amd64
 Version: 2.40.2-2build4
