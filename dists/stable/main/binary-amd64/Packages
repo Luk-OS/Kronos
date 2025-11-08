@@ -119,15 +119,15 @@ Package: lukos-base
 Architecture: all
 Version: 1.0
 Priority: optional
-Section: admin
+Section: base
 Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
 Depends: base-files
-Filename: pool/main/lukos-base_1.0.deb
-Size: 1452
-MD5sum: 32bdb542d5ba4ad14b7e0a096276e12b
-SHA1: e190ac0e77df60bfbb1abd5721e507f06de5e157
-SHA256: 149cf1c7e31e6b57238951ee4586bd13fdc5d29a8a992b36d28c57f2ac3864f8
-SHA512: fa2d084ba922622eeb6bb8620334531fe8b4b25c93bb315c2de4b00a1cdd38ef15c01a39743f35917bd6d1b177bebd35c07da4e0b2d6387f50c9948e36b557ee
+Filename: pool/main/lukos-base_1.0_all.deb
+Size: 1744
+MD5sum: f2767d4dc4896a76b5a3c90bcce6ff3c
+SHA1: f8a3e8a6b778bc5804b1efc01b859bc65adec3f6
+SHA256: 6964d45851aac4df6e80be673b3db403182c0b3586c58e14000703968356d7be
+SHA512: 790a130c09809dfab6eaf3d12bbf5c23db6d9922d8edb11b97e24a4dcc06d31d7ae4cb14a9cd7a04d0f7303a297513c05d3a4e0058f19be13096e3685e743627
 Description: Branding y personalización de Luk-OS GNU/Linux basado en Devuan
 
 Package: mint-common
