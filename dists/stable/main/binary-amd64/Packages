@@ -123,12 +123,12 @@ Section: base
 Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
 Depends: bash, coreutils
 Filename: pool/main/lukos-base_1.0_all.deb
-Size: 1660
-MD5sum: 1ad2d507e7b75193531a606ff7b12905
-SHA1: a68f959802a6ad29ead562522293b8d995f12a32
-SHA256: b23b652948e3126332ff56907e8cf8fcde09b7dfbd9f64fcfd94428f02acbdcb
-SHA512: 48f0bec46589886cf1dbb745c701461491715107e5c29d77d9081aff4f6bcbc991d11662b753b669d84688ebe07ef71800cb20d521c0762e21c816c6db776b99
-Description: Branding completo de Luk-OS GNU/Linux Kronos sobre Devuan
+Size: 1728
+MD5sum: 3f0e6fc8acac64b771565fe529d5012d
+SHA1: dd264bb7422ef4e48e6cf91a56299be02ee1eff2
+SHA256: 67cf937ca5e14b09d431101173fab9b328e57c83771068940f5a81cee7e0de21
+SHA512: aa1934705aa1f2522fc8084da793494489d0981e5facdf2942c10f50464d09cf04599f3f67bded63c149082d2f585c7886709025c5f654fd240b37370fc7c4d5
+Description: Branding completo de Luk-OS GNU/Linux (Kronos) sobre Devuan
 
 Package: mint-common
 Architecture: all
