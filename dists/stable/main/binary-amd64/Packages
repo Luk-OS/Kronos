@@ -152,6 +152,25 @@ SHA512: c44ad3f0f72801badb4857d0446c6d77170b7cc4acec108a003696102e6e69a3768968bd
 Description: Software Manager
  A software manager to easily install new applications.
 
+Package: mintsources
+Architecture: all
+Version: 1.4.7
+Priority: optional
+Essential: yes
+Section: admin
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 911
+Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, python-pycurl, synaptic, dash
+Replaces: python-software-properties (<< 1), python3-software-properties (<< 1), software-properties-common (<< 1), software-properties-gtk (<< 1), software-properties-kde (<< 1)
+Filename: pool/main/mintsources_1.4.7_all.deb
+Size: 201162
+MD5sum: 3b24846ec8ffac475ce80f5a18e3a979
+SHA1: 28a89ebd5b642bb94ac9018fe5c7abf3afc40392
+SHA256: df713c1e15ded3a42d0955d077a5c70fac2291262f00f90474fe5760500ea1e0
+SHA512: 50831564fff2a01d845afd77b2ffd7ea7720c9e7a351d47f29bd5f8add1bd5ed66f98669be8a7bca8de3bcdb7386b13f187a16df1bdcd9433032a3ae70e6708f
+Description: Software Sources configuration tool
+ Configure the sources for installable software and updates.
+
 Package: python3-defer
 Architecture: all
 Version: 1.0.6-2.1
@@ -178,6 +197,42 @@ Description: Small framework for asynchronous programming (Python 3)
  .
  At first defer was part of aptdaemon, but moved to a separate project in
  August of 2010.
+
+Package: python3-software-properties
+Architecture: all
+Version: 1.4.7
+Priority: optional
+Section: admin
+Source: mintsources
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 28
+Depends: mintsources
+Filename: pool/main/python3-software-properties_1.4.7_all.deb
+Size: 3902
+MD5sum: f0bb46f0bf18e3961a7ad64ef3546acd
+SHA1: 783feb147409858485aceaad7b7e0129f4300666
+SHA256: 2f284debec966c78a9ea6521d1ce6993c88ed702c630fdd629e8da67dd255151
+SHA512: 0e501cc3a316ddc3b3618513ad890dc92c18e5ab4f1f0ddb21c6331edb6e7f4bf003d64b4474372bec3ad59f60ca20a9be0dffef1ab2fe09af940cd9dadbcc42
+Description: Transitional package
+ This package is obsolete and replaced with mintsources.
+
+Package: software-properties-common
+Architecture: all
+Version: 1.4.7
+Priority: optional
+Section: admin
+Source: mintsources
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 28
+Depends: mintsources
+Filename: pool/main/software-properties-common_1.4.7_all.deb
+Size: 3902
+MD5sum: 9f527be2a7bc2649c463474dd85e6df6
+SHA1: 06cfcc7f6a0a7e0509b1aefc94b342d9f16f308a
+SHA256: 408e33b294a6665f5e62851f2298c9d384aa3e4f09480a46d5b51f752076ff1e
+SHA512: d012b5349892e292ae1a4fc310a99a6a749f109186f50f52cb7ac481c7e5c9645af5687748333fe1bdb1adb86e649f605a9094e93240967810c4df5109470475
+Description: Transitional package
+ This package is obsolete and replaced with mintsources.
 
 Package: webapp-manager
 Architecture: all
