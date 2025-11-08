@@ -234,6 +234,24 @@ SHA512: d012b5349892e292ae1a4fc310a99a6a749f109186f50f52cb7ac481c7e5c9645af56877
 Description: Transitional package
  This package is obsolete and replaced with mintsources.
 
+Package: software-properties-gtk
+Architecture: all
+Version: 1.4.7
+Priority: optional
+Section: admin
+Source: mintsources
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 28
+Depends: mintsources
+Filename: pool/main/software-properties-gtk_1.4.7_all.deb
+Size: 3904
+MD5sum: 0eca1ed4942f621c1137be8a8eb66822
+SHA1: 89e6d0d2a1248fe5a934d83b7ad12f7f9b29f248
+SHA256: be1622f0fb80295f97f4384a72367eb38a1ce58937d73b01a986c5f55c354a42
+SHA512: 1cedfabd8b9887a658607bd508f5704d73cae1b53e3562b973b32f9e23c5e91da08a315bade860ba3ca906dfed8093e0bfe05ee0dbbb0ae4ead396b1edf5411d
+Description: Transitional package
+ This package is obsolete and replaced with mintsources.
+
 Package: webapp-manager
 Architecture: all
 Version: 1.4.3
