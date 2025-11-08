@@ -392,6 +392,32 @@ Description: Small framework for asynchronous programming (Python 3)
  At first defer was part of aptdaemon, but moved to a separate project in
  August of 2010.
 
+Package: python3-repolib
+Architecture: all
+Version: 2.2.1+mint1
+Priority: optional
+Section: python
+Source: repolib
+Maintainer: Ian Santopietro <isantop@gmail.com>
+Installed-Size: 127
+Depends: python3:any (>= 3.8~), apt, lsb-release, python3 (>= 3.8), python3-dbus, python3-debian, python3-distro (>= 1.4.0), python3-gnupg, python3-launchpadlib, python3-lazr.restfulclient
+Filename: pool/main/python3-repolib_2.2.1+mint1_all.deb
+Size: 24524
+MD5sum: 93b07ea46efb4c8c23bae15641363504
+SHA1: 396e1dfc05341c7544c99c0496af87545139b0b1
+SHA256: a859860e6d82430f71063918e11dbf5bd974bc8af005813248b4e85622da0d9e
+SHA512: 5bcdf104d6c2dc46c511c2cb743709372e3313a951923f702a5b1e81207cd8ab442b8c48d6f53268fd94630e11e3b17724932e97ba24dbfeac5a5669d6d2efc0
+Homepage: https://github.com/isantop/repolib
+Description: Repository Management for APT in Python (Python 3)
+ RepoLib is a Python library for managing your software
+ system software repositories. It's currently set up to handle APT repositories
+ on Debian-based linux distributions.
+ .
+ RepoLib is intended to operate on DEB822-format sources. It aims to provide
+ feature parity with software-properties for most commonly used functions.
+ .
+ This package installs the library for Python 3.
+
 Package: python3-software-properties
 Architecture: all
 Version: 1.4.7
