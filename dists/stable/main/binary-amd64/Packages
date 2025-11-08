@@ -171,6 +171,24 @@ SHA512: aebe7329d5a5a47f2414a0f88f2ebd3dbf9707ce3f7738073ae3aba2a71c228483dc3bf5
 Description: Common scripts and resources for Linux Mint
  A collection of scripts and resources used by other Linux Mint packages
 
+Package: mint-mirrors
+Architecture: all
+Version: 1.2.7
+Priority: optional
+Section: admin
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 31
+Conflicts: mintupdate (<= 4.3.4)
+Replaces: mintupdate (<= 4.3.4), mintupdate-debian (<= 1.0.7)
+Filename: pool/main/mint-mirrors_1.2.7_all.deb
+Size: 6240
+MD5sum: 2312ee8d181a91d37a7b179269bc62a2
+SHA1: f639045a6c6aec287005d67ed1845dcf26025f6f
+SHA256: bd84c01c5ad6ee21683be139600cfa3209fc3cdbe17d314a4c6d66c76c825a3d
+SHA512: 2de0fe630ec47ede6d6155aac998dd9a47ddc9a7df6d1049a47fad5825933512153af69e1ff01c2c7f9eabfc7c0dae853d865fc412207dd6e7a921bdf3975be3
+Description: Linux Mint Repository mirrors
+ List of Linux Mint Repository mirrors.
+
 Package: mint-translations
 Architecture: all
 Version: 2025.08.26
