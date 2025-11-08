@@ -221,23 +221,24 @@ Description: write .img and .iso files to USB sticks
 
 Package: python2.7
 Architecture: amd64
-Version: 2.7.18-8+deb11u1
+Version: 2.7.17-1~18.04ubuntu1.11
 Multi-Arch: allowed
 Priority: optional
 Section: python
-Maintainer: Matthias Klose <doko@debian.org>
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 383
-Depends: python2.7-minimal (= 2.7.18-8+deb11u1), libpython2.7-stdlib (= 2.7.18-8+deb11u1), mime-support
+Depends: python2.7-minimal (= 2.7.17-1~18.04ubuntu1.11), libpython2.7-stdlib (= 2.7.17-1~18.04ubuntu1.11), mime-support
 Suggests: python2.7-doc, binutils
 Conflicts: python-profiler (<= 2.7.1-2)
-Breaks: libgcj-common (<< 1:7), libpython-dbg (<< 2.7.18), libpython-dev (<< 2.7.18), libpython-stdlib (<< 2.7.18), libvolk1-bin (<< 2), pysycache (<< 3.1-4~), python (<< 2.7.18), python-catkin-pkg (<< 0.4.14-2~), python-chardet (<< 3.0.4-6~), python-dbg (<< 2.7.18), python-dev (<< 2.7.18), python-extras (<< 1.0.0-4~), python-fixtures (<< 3.0.0-3~), python-genpy (<< 0.6.9-2~), python-iso8601 (<< 0.1.12-2~), python-linecache2 (<< 1.0.0-4~), python-minimal (<< 2.7.18), python-pbr (<< 5.4.5), python-pyasn1 (<< 0.4.2-4~), python-pygame (<< 1.9.6+dfsg-3~), python-pyicu (<< 2.2-3~), python-rospkg (<< 1.1.10-2~), python-std-msgs (<< 0.5.12-2~), python-testtools (<< 2.3.0-7~), python-traceback2 (<< 1.4.0-6~), python-traitlets (<< 4.3.3-3~), python-urllib3 (<< 1.25.8-2~), python-virtualenv (<< 1.7.1.2-2~), python-yaml (<< 5.3.1-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)
+Breaks: python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)
 Replaces: python-profiler (<= 2.7.1-2), python2.7-minimal (<< 2.7.3-7~)
-Filename: pool/main/python2.7_2.7.18-8+deb11u1_amd64.deb
-Size: 310988
-MD5sum: 30f0ac5f29358493d764c913edc6651b
-SHA1: dbcd4e82dc6f3efe1b20fc9137ee9b08dfc2b586
-SHA256: 0b0b34b069d41970af75a4fe5b9012465e480fc0a0488ec16554d6299fe0b46e
-SHA512: e0eee1846f312e2569b6c6daf82c878a11802dfbb8265d3a7cf8f9dab660c227ad40a7a8abbb48ce168832265e94e4d507e4dedf0ac839d84ffd72dc567eadab
+Filename: pool/main/python2.7_2.7.17-1~18.04ubuntu1.11_amd64.deb
+Size: 247780
+MD5sum: 041f8cea993281e1b6b22245b62a104d
+SHA1: 1147d7b3cf1af6fc84b598ccb508e7b987058fa2
+SHA256: ada9b8a5b7492533afda91fd39f2b29972fa18b4d8890da92ff664fa45b95e60
+SHA512: ac004f07d10707904e1de58bd93358008745de8769c8e1261b6b27db07e6aa00a467894ef00c4a40b403836858a7765bdd2678641afbe2b8fe07cd676dc8d5b3
 Description: Interactive high-level object-oriented language (version 2.7)
  Python is a high-level, interactive, object-oriented language. Its 2.7 version
  includes an extensive class library with lots of goodies for
