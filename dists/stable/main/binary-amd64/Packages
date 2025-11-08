@@ -184,20 +184,19 @@ Description: Software Manager
 
 Package: mintsources
 Architecture: all
-Version: 1.4.7
+Version: 2.3.6
 Priority: optional
-Essential: yes
 Section: admin
 Maintainer: Clement Lefebvre <root@linuxmint.com>
-Installed-Size: 911
-Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, python-pycurl, synaptic, dash
-Replaces: python-software-properties (<< 1), python3-software-properties (<< 1), software-properties-common (<< 1), software-properties-gtk (<< 1), software-properties-kde (<< 1)
-Filename: pool/main/mintsources_1.4.7_all.deb
-Size: 201162
-MD5sum: 3b24846ec8ffac475ce80f5a18e3a979
-SHA1: 28a89ebd5b642bb94ac9018fe5c7abf3afc40392
-SHA256: df713c1e15ded3a42d0955d077a5c70fac2291262f00f90474fe5760500ea1e0
-SHA512: 50831564fff2a01d845afd77b2ffd7ea7720c9e7a351d47f29bd5f8add1bd5ed66f98669be8a7bca8de3bcdb7386b13f187a16df1bdcd9433032a3ae70e6708f
+Installed-Size: 1075
+Depends: python3-apt, python3-gi, python3-gi-cairo, python3-pycurl, python3-requests, python3-repolib, aptkit, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-packagekitglib-1.0, gir1.2-pango-1.0, gir1.2-xapp-1.0, iso-flag-png, inxi, lsb-release, mint-mirrors
+Replaces: software-properties-common (<< 1), software-properties-gtk (<< 1)
+Filename: pool/main/mintsources_2.3.6_all.deb
+Size: 119132
+MD5sum: 11d6e6470584d30c38e8b6cd11879924
+SHA1: c05739d7c6e8c13c666f3df624a1c8ce82422723
+SHA256: 280b2f53ecb09c6228456df6e1052502718afee339a5e05d19ba01a18305f4a2
+SHA512: f7bb8a5cc621514d90a546f9c7197a92de424f9ea02e7c0437f4bbc15df69a53ac50612c759c9086d8afe4617146402ebd7d90849b2bb269d6bc4381fc36b385
 Description: Software Sources configuration tool
  Configure the sources for installable software and updates.
 
