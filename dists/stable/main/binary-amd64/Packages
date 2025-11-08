@@ -100,6 +100,21 @@ Description: GDK Pixbuf library (transitional package)
  or until that can be done, depend on
  libgdk-pixbuf-xlib-2.0-0 | libgdk-pixbuf2.0-0.
 
+Package: luk-os-grub-theme
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: themes
+Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
+Filename: pool/main/luk-os-grub-theme_1.0.deb
+Size: 60838664
+MD5sum: ae7060d6e9378a239794080b3caae71b
+SHA1: fd09840beff4103217ac016d3b256a5b42155602
+SHA256: 08a0e4c149fa95468376448c84d68b6a6ac4e27a4915c383f99549d5fdc912c8
+SHA512: 12c556be237093d2d509543e4010bad60edded3e1ea7f6bc33054013b29582816d8077823f5f04a7772c2a1438b8d72751fe3148395351026b00ffa115218931
+Description: Tema azul y negro para GRUB inspirado en Luk-Os
+ Este paquete instala el tema de arranque Luk-Os con estilo azul-neón y fondo oscuro.
+
 Package: mint-common
 Architecture: all
 Version: 2.4.8
