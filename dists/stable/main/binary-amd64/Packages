@@ -1,3 +1,132 @@
+Package: app-install-data
+Architecture: all
+Version: 15.10build1
+Priority: optional
+Section: gnome
+Source: app-install-data-ubuntu
+Maintainer: Michael Vogt <michael.vogt@ubuntu.com>
+Installed-Size: 45260
+Filename: pool/main/app-install-data_15.10build1_all.deb
+Size: 14900932
+MD5sum: 236ffff566496fc2ac40b1a76e5309a4
+SHA1: d9625c2464cf39d49e55475d03e6ba98f0479fc4
+SHA256: 5ee6bd924c7dabc87e1e5230a86d79ea988ec49cf6fa6389a69a41c69903103c
+SHA512: 1f46a9f840ecdad8f26bd49325a5e66e95896a54c94b5a38bea38d6b81c124b4aa3669e16077fc2f041982e0696ecc129151153d72e30d9663681104856649e3
+Description: Ubuntu applications (data files)
+ This package contains the Ubuntu specific application data and
+ icons for software-center (and similar tools).
+
+Package: aptkit
+Architecture: all
+Version: 1.0.8
+Priority: optional
+Section: admin
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 2929
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-packagekitglib-1.0, gir1.2-vte-2.91, gir1.2-xapp-1.0, iso-codes, polkitd, python3-apt, python3-dbus, python3-defer (>= 1.0.6), python3-gi, python3-pkg-resources
+Filename: pool/main/aptkit_1.0.8_all.deb
+Size: 426512
+MD5sum: a7d31d37281b70809fc8eb052dbb095a
+SHA1: 668a575f47d0a1512f6fb89417a2412a379857ae
+SHA256: f855ec12e55e568f812819004fa8ee31014ff84a6ac1bd5334c4be848c8375c6
+SHA512: 1d999fcdcd1c4208f0d7b9a62772bca3f8ecb698d04a9c72e69774a6f2dee7a56a2d5abe3d6e52747473ebda4106c399778fa19fd76fd94f3fdab062b80fbfec
+Homepage: https://github.com/linuxmint/aptkit
+Description: transaction based package management service
+ Aptkit allows users to perform package management tasks,
+ refreshing the cache, upgrading the system, installing or removing software
+ packages.
+ .
+ It provides the following main features:
+ .
+  - D-Bus interface to write clients in several languages
+  - Modules and widgets to write clients in Python3/GTK3
+  - CLI tools
+  - Runs only if required (D-Bus activation)
+  - Fine grained privilege management using PolicyKit, e.g. allowing all
+    desktop user to query for updates without entering a password
+  - Support for media changes during installation from DVD/CDROM
+  - Support for debconf (Debian's package configuration system)
+  - Support for attaching a terminal to the underlying dpkg call
+
+Package: mint-common
+Architecture: all
+Version: 2.4.8
+Priority: optional
+Section: admin
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 442
+Depends: python3, aptkit, python3-gi, python3-html2text, gir1.2-gtk-3.0, gir1.2-xapp-1.0, gir1.2-xmlb-2.0, mint-translations, libgtk3-perl
+Filename: pool/main/mint-common_2.4.8_all.deb
+Size: 244904
+MD5sum: 71c834de432a363b4cdcb16c1b38de27
+SHA1: 9a4b67baafb04d098ba6f6f218818980a58b296a
+SHA256: e06a708c5eec99f3ea29614e695a6178aea2cf57d775fd05a9f5dcabf100e846
+SHA512: aebe7329d5a5a47f2414a0f88f2ebd3dbf9707ce3f7738073ae3aba2a71c228483dc3bf52247556e691629a3724a1449b95fafbd02350dfafbee1cb959c32470
+Description: Common scripts and resources for Linux Mint
+ A collection of scripts and resources used by other Linux Mint packages
+
+Package: mint-translations
+Architecture: all
+Version: 2025.08.26
+Priority: optional
+Section: admin
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 7103
+Filename: pool/main/mint-translations_2025.08.26_all.deb
+Size: 921320
+MD5sum: e16205d07f14b108c01d16a2c1db7f40
+SHA1: 0fa03f3dbcfbda64e463e6325d0849c93fc8b7e8
+SHA256: 8d549f9d3f6aa21080494c9446fc3ae21e2c7a5c121a64c550125c7ce10302da
+SHA512: da764532eaf1a70a0f2890c27f435984560ba05bd29fb4a33bc2a643f4d35e29fa78c22add0d244450e3ea04288275025f4d60eb748eb2da627c039a2373e3af
+Description: Translation files for Linux Mint
+ Translation files for Linux Mint
+
+Package: mintinstall
+Architecture: all
+Version: 8.3.9
+Priority: optional
+Section: admin
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 1180
+Pre-Depends: ca-certificates (>= 20210101)
+Depends: python3 (>= 3.4), python3-bs4, python3-gi-cairo, python3-lxml, python3-setproctitle, python3-xapp, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-xapp-1.0, libgtk3-perl, mint-common (>= 2.2.4), app-install-data
+Recommends: gir1.2-flatpak-1.0, flatpak, xdg-desktop-portal-gtk
+Filename: pool/main/mintinstall_8.3.9_all.deb
+Size: 200612
+MD5sum: d3e89fbb674ba56e8db481bc24733252
+SHA1: ef070097f3fd0f680b272e31eb155dc65fa16e08
+SHA256: ec2d8b39d52977049020d3ba49254f7405511a7421e04beca175a9a740584684
+SHA512: c44ad3f0f72801badb4857d0446c6d77170b7cc4acec108a003696102e6e69a3768968bdcdd22fba4a0ae6f6fe183c9170fcadfa67f71157dc00f5369d1334b9
+Description: Software Manager
+ A software manager to easily install new applications.
+
+Package: python3-defer
+Architecture: all
+Version: 1.0.6-2.1
+Priority: extra
+Section: python
+Source: python-defer
+Maintainer: Sebastian Heinlein (devel) <devel@glatzor.de>
+Installed-Size: 50
+Depends: python3:any (>= 3.2~)
+Filename: pool/main/python3-defer_1.0.6-2.1_all.deb
+Size: 10696
+MD5sum: a4c2b98067eac0f7cb73ed83536a03d3
+SHA1: b8038f9e739a4dda3be73d0d17e37f63ddab8d90
+SHA256: 3fe5646cde70eedc876ae486b7dd97a6bd27e30614b7bccd8d06bf4a50c898d8
+SHA512: 31f63e88b68afe138222ec8eb00db49060b6de9a10399ca6f38cc1e77c1de19ba7fe2b833505f4734d54e2726bf2b3aaaec55d40084d53a14ac09e8c2abd384e
+Homepage: https://launchpad.net/python-defer
+Description: Small framework for asynchronous programming (Python 3)
+ The defer module provides an easy way to write asynchrouns Python 3 programs.
+ It is greatly inspired by Twisted's defer, but hasn't got any external
+ dependencies.
+ .
+ Furthermore it features decorators to write asynchronous D-Bus servers and
+ clients.
+ .
+ At first defer was part of aptdaemon, but moved to a separate project in
+ August of 2010.
+
 Package: webapp-manager
 Architecture: all
 Version: 1.4.3
