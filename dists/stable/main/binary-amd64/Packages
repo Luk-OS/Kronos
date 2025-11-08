@@ -171,6 +171,25 @@ SHA512: 50831564fff2a01d845afd77b2ffd7ea7720c9e7a351d47f29bd5f8add1bd5ed66f98669
 Description: Software Sources configuration tool
  Configure the sources for installable software and updates.
 
+Package: mintstick
+Architecture: all
+Version: 1.6.4
+Priority: optional
+Section: misc
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 287
+Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, pkexec, procps, python3, python3-gi, python3-parted, python3-gnupg, python3-unidecode, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Filename: pool/main/mintstick_1.6.4_all.deb
+Size: 48772
+MD5sum: 8395c9af4e927203d84fb9888b5cf26a
+SHA1: 48c46c41c09d9d026cb311c2e9a6ac61fa32dd57
+SHA256: af527b0d32fcef7b167f8cc518a4a1dff1253f09d867cebdf60c0111ab6a9cfc
+SHA512: 7b556be52cccb0ae28eaef62b604fc9f0570bf9bf5fd1656ff9ac4b3de73cc0adcbc6c286e91fd221df11aacd72fcc8b0e394d13e959a9599d3af7faf5177f66
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.
+
 Package: python2.7
 Architecture: amd64
 Version: 2.7.18-8+deb11u1
