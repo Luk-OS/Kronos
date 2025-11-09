@@ -66,27 +66,6 @@ Homepage: http://teejeetech.blogspot.in/
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
 
-Package: ghostty
-Architecture: amd64
-Version: 1.2.3-1+trixie
-Priority: optional
-Section: utils
-Source: ghostty
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
-Depends: libadwaita-1-0, libc6, libfontconfig1, libfreetype6, libgtk4-layer-shell-dev, libglib2.0-0, libgtk-4-1, libharfbuzz0b, libonig5, libx11-6, libxml2-utils
-Filename: pool/main/ghostty_1.2.3-1+trixie_amd64.deb
-Size: 17641100
-MD5sum: e10b2641da5f36a1eba346c0fecf1c2b
-SHA1: 9ef71506b3fef2ccd224ebb1ab6e153be24cadae
-SHA256: a70bebee7f095f6131c1105c37b23a4f0f132de139a25098ed1d75e65211bf72
-SHA512: 451416b49dad73745e72905f13a55b68acbf10cbad68e6b7747c52747db1efc4d44908621e3d75aac2dcb8708e331786a738eae4a99ac4cbb88e1762a3f0c42d
-Homepage: https://ghostty.org/
-Description: Fast, feature-rich, and cross-platform terminal emulator.
- Ghostty is a terminal emulator that differentiates itself by being fast,
- feature-rich, and native. While there are many excellent terminal emulators
- available, they all force you to choose between speed, features, or native
- UIs. Ghostty provides all three. This is an unofficial package.
-
 Package: libgdk-pixbuf2.0-0
 Architecture: amd64
 Version: 2.40.2-2build4
@@ -436,4 +415,25 @@ SHA256: 11f06e495c41d959cef101e2b946d72bb417fe369c19d9fd6495dff3de8dff4b
 SHA512: 386a39af1bd6153fb6ee9b93edda4b3ce71a35043ecfb4d35c6bff684fdc1ac873510fb5779bdd42dcd9c7cf54a4d69695d3c6feb0ed950e17e3921bcd919967
 Description: Web Application Manager
  Launch websites as if they were apps.
+
+Package: wezterm
+Architecture: amd64
+Version: 20240203-110809-5046fc22
+Priority: optional
+Section: utils
+Maintainer: Wez Furlong <wez@wezfurlong.org>
+Provides: x-terminal-emulator
+Depends: libc6 (>= 2.35), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libssl3 (>= 3.0.0), libwayland-client0 (>= 1.11.0), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-image0 (>= 0.2.1), libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.11.1), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.6.1), zlib1g (>= 1:1.1.4)
+Conflicts: wezterm-nightly
+Filename: pool/main/wezterm-20240203-110809-5046fc22.Debian12.deb
+Size: 30714456
+MD5sum: 5a2c0ab85363d3ff7b983fa5ea913e83
+SHA1: 15397dd12b10045a1162eb9dc0e8e1e2ab33ece2
+SHA256: d3a5c97093fbc0a87e8f9616e44efc4c9503cfc495fd1cfe4ffeff88578d15f8
+SHA512: 59356c177d1f209c849b36e4389c17ccb59b4b5e0aefc8c3db35ea4c5d6f6891dba0196b01138e43966b0395152dc8b95eff4b90a3d4de4a56e04a19ced316a3
+Homepage: https://wezfurlong.org/wezterm/
+Description: Wez's Terminal Emulator.
+ wezterm is a terminal emulator with support for modern features
+ such as fonts with ligatures, hyperlinks, tabs and multiple
+ windows.
 
