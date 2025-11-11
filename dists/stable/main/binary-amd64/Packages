@@ -154,6 +154,22 @@ SHA256: df33729be6b6865239114b203526b99057c7ffb8e641567a3c5d9121a8287bfe
 SHA512: d8135d9a600869fc8c89695c733636ccab7272aedac1a06e8784b01c4dac395397f70542cf8e899e43ab016d4c76730b11e808f93ef6b9d6aeff5016afb9e349
 Description: Branding completo de Luk-OS (Kronos)
 
+Package: lukos-theme-plymouth
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: themes
+Maintainer: Aprende con SThip <aprendeconsthip@gmail.com>
+Depends: plymouth
+Filename: pool/main/lukos-theme-plymouth_1.0.deb
+Size: 241888
+MD5sum: 2386584409cd67a0965881c7353b6529
+SHA1: 7c3f1d6cc91b11bcc121ed9140c428485414ba3c
+SHA256: dd0b133ef6efbae1ba2cff2fb6dcef02d83e78231b6ad885eb4c0e980d65e6d6
+SHA512: 4a7a4ed6948494d2d50701c55335531276f48a8edaf42817d746dd7a8ca5c272c6c1172510814ba857750d0e06d548994774ee3db0c8308d1395f77892365616
+Description: Tema Plymouth estilo macOS para LukOS / Devuan
+ Un tema visual inspirado en macOS para el cargador Plymouth.
+
 Package: mint-common
 Architecture: all
 Version: 2.4.8
@@ -415,4 +431,25 @@ SHA256: 11f06e495c41d959cef101e2b946d72bb417fe369c19d9fd6495dff3de8dff4b
 SHA512: 386a39af1bd6153fb6ee9b93edda4b3ce71a35043ecfb4d35c6bff684fdc1ac873510fb5779bdd42dcd9c7cf54a4d69695d3c6feb0ed950e17e3921bcd919967
 Description: Web Application Manager
  Launch websites as if they were apps.
+
+Package: wezterm
+Architecture: amd64
+Version: 20240203-110809-5046fc22
+Priority: optional
+Section: utils
+Maintainer: Wez Furlong <wez@wezfurlong.org>
+Provides: x-terminal-emulator
+Depends: libc6 (>= 2.35), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 4.2), libssl3 (>= 3.0.0), libwayland-client0 (>= 1.11.0), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-image0 (>= 0.2.1), libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.11.1), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.6.1), zlib1g (>= 1:1.1.4)
+Conflicts: wezterm-nightly
+Filename: pool/main/wezterm-20240203-110809-5046fc22.Debian12.deb
+Size: 30714456
+MD5sum: 5a2c0ab85363d3ff7b983fa5ea913e83
+SHA1: 15397dd12b10045a1162eb9dc0e8e1e2ab33ece2
+SHA256: d3a5c97093fbc0a87e8f9616e44efc4c9503cfc495fd1cfe4ffeff88578d15f8
+SHA512: 59356c177d1f209c849b36e4389c17ccb59b4b5e0aefc8c3db35ea4c5d6f6891dba0196b01138e43966b0395152dc8b95eff4b90a3d4de4a56e04a19ced316a3
+Homepage: https://wezfurlong.org/wezterm/
+Description: Wez's Terminal Emulator.
+ wezterm is a terminal emulator with support for modern features
+ such as fonts with ligatures, hyperlinks, tabs and multiple
+ windows.
 
