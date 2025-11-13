@@ -48,6 +48,26 @@ Description: transaction based package management service
   - Support for debconf (Debian's package configuration system)
   - Support for attaching a terminal to the underlying dpkg call
 
+Package: calamares-settings-luk-os
+Architecture: all
+Version: 1.1-0
+Priority: optional
+Section: utils
+Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
+Installed-Size: 4716
+Depends: calamares, pkexec
+Conflicts: calamares-settings-debian
+Breaks: calamares-settings-debian
+Replaces: calamares-settings-debian
+Filename: pool/main/calamares-settings-luk-os_1.1-0_all.deb
+Size: 6026640
+MD5sum: bf7f637ea7c0fa69b5e8170c9c701709
+SHA1: 07ec929124acd0a3ef028692732b909e9f73ae41
+SHA256: 7eff16c8ca739d06ab4ba6ac33c4df557114702199b5b95139ab0f4bd822b7e8
+SHA512: 82be1c176d6b5a67b1b85235d27f75e5c9472646587858c1ac91abe82017e85a7d1b2d3ac566e6ed6bb9e418cfa86afaf68cd14ed7f79d600483574a67fa6460
+Homepage: https:luk-os.gtihub.io
+Description: Luk-OS config for Calamares
+
 Package: conky-manager2
 Architecture: amd64
 Version: 2.7-0build2~ubuntu2204
