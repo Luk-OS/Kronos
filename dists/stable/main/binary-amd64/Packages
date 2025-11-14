@@ -284,6 +284,28 @@ Description: Desktop configuration tool for MX Linux
   * Fine-tuning system performance settings
   * Managing compositor effects
 
+Package: neofetch
+Architecture: all
+Version: 7.1.0-4
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 352
+Recommends: chafa, caca-utils, imagemagick, jp2a, libsixel-bin, w3m-img, pciutils
+Filename: pool/main/neofetch_7.1.0-4_all.deb
+Size: 81824
+MD5sum: 4f159a63e88047321510273790ac5349
+SHA1: 750e3f852d41f1ddb5f27575c147337eb4013a38
+SHA256: 977499a6860467a709c68ec278bdce2c837a23ddc6fc5bd6039f5777757244aa
+SHA512: a752d4c66dd881cb26400f93d27d6a1771d91c6e5ddd3903d45dfc4cc08841353ede39a0564b592a897144a1147998f882288165676249098864c67ea921179e
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows Linux System Information with Distribution Logo
+ Neofetch is a cross-platform and easy-to-use system information
+ command line script that collects your Linux system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+
 Package: python-pycurl
 Architecture: amd64
 Version: 7.43.0.2-0.1
