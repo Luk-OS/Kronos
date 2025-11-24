@@ -476,3 +476,16 @@ Description: Wez's Terminal Emulator.
  such as fonts with ligatures, hyperlinks, tabs and multiple
  windows.
 
+Package: lukos-branding
+Version: 1.0
+Architecture: all
+Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
+Priority: optional
+Section: base
+Description: Branding completo de Luk-OS (Kronos) 1.0 Alpha
+Depends: bash, coreutils
+Filename: pool/main/lukos-branding_1.0_all.deb
+Size: 158596
+MD5sum: 991a149fcb5854ee212e5b4203cb253d
+SHA1: d83fce280a7badc6e5640cd004e8e51a9d19f748
+SHA256: 9be6c58b0f295a0b3ece70e372d52be4984c0098613b50f3c0f8ef785166ffe6
