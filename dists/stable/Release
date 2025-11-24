@@ -1,10 +1,14 @@
-Date: lun, 24 nov 2025 01:56:58 UTC
+Origin: Kronos
+Label: Kronos Apt
 Suite: stable
+Codename: stable
+Date: Mon, 24 Nov 2025 02:16:28 GMT
+Architectures: amd64
+Components: main
+Description: Hosted by Gestor APT Cloud
 MD5Sum:
- 750cab9935b964f674f3af4d33b78d95               52 Release 6b4205cb0e95ffe94d9c49c1e2db51fb3c8aeaa8225da6f1a645bb95f9938e45 21690 main/binary-amd64/Packages 8932118ee50b3980c34775bc2b25d85c6356d507a9fcc1962ec8cb7fedc79c90 9188 main/binary-amd64/Packages.gz
-SHA1:
- 02ae6aa029ddb821a34915225440d21344334182               52 Release 6b4205cb0e95ffe94d9c49c1e2db51fb3c8aeaa8225da6f1a645bb95f9938e45 21690 main/binary-amd64/Packages 8932118ee50b3980c34775bc2b25d85c6356d507a9fcc1962ec8cb7fedc79c90 9188 main/binary-amd64/Packages.gz
+ 14394bdfa8c05fe2f2ac9df015fac503 21107 main/binary-amd64/Packages
+ 66e2e3587e8261e68e3eb77ac04f139e 8975 main/binary-amd64/Packages.gz
 SHA256:
- 7f084652d8e4aee3476bffcc76809b579b66d4c921115268fa9f0a8f268efcb7               52 Release 6b4205cb0e95ffe94d9c49c1e2db51fb3c8aeaa8225da6f1a645bb95f9938e45 21690 main/binary-amd64/Packages 8932118ee50b3980c34775bc2b25d85c6356d507a9fcc1962ec8cb7fedc79c90 9188 main/binary-amd64/Packages.gz
-SHA512:
- 0286e6408a78b915b9e5e0e7ac21826dedeb361975306e9a3d955cecda7832c5d012f56dfaef889ec583d5983191bd2ccf7e540f91864380ae293febd026749b               52 Release 6b4205cb0e95ffe94d9c49c1e2db51fb3c8aeaa8225da6f1a645bb95f9938e45 21690 main/binary-amd64/Packages 8932118ee50b3980c34775bc2b25d85c6356d507a9fcc1962ec8cb7fedc79c90 9188 main/binary-amd64/Packages.gz
+ f7330b6e36d5daed61e29c39556352b01b2a7d8a86c40340408bc2e6335f1d94 21107 main/binary-amd64/Packages
+ 13194aac21b4616756db763f2fd0b4ed9bc4b14c53cdbe937dc772390ad035a6 8975 main/binary-amd64/Packages.gz
