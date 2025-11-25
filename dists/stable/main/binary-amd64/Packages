@@ -474,23 +474,3 @@ Size: 158596
 MD5sum: 991a149fcb5854ee212e5b4203cb253d
 SHA1: d83fce280a7badc6e5640cd004e8e51a9d19f748
 SHA256: 9be6c58b0f295a0b3ece70e372d52be4984c0098613b50f3c0f8ef785166ffe6
-
-Package: apt-notifier
-Version: 24.09.01
-Architecture: all
-Maintainer: fehlix <fehlix@mxlinux.org>
-Installed-Size: 1170
-Depends: anacron, apt (>= 2.2.4), bash (>= 3.2-4), curl, gtkdialog, python3-ewmh, python3-notify2, python3-pyqt5, unattended-upgrades, util-linux-locales, xdotool, xfce4-terminal | x-terminal-emulator, yad (>= 0.40)
-Recommends: policykit-1-gnome | lxpolkit | polkit-1-auth-agent, synaptic | muon
-Conflicts: mepis-aptnotify
-Replaces: mepis-aptnotify
-Section: admin
-Priority: optional
-Homepage: https://github.com/MX-Linux/apt-notifier
-Description: tray applet to notify of system and application updates
-Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
-Filename: pool/main/apt-notifier_24.09.01_all.deb
-Size: 304624
-MD5sum: f18b19b42844f503496bd09160d609b4
-SHA1: d3456edd64be3f1ba36e650848c538c7288ef578
-SHA256: ee32a6c88c7c28a5be089ff223a69c08cc70e53fd4b9572c57c1196a8d2f06af
