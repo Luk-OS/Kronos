@@ -511,3 +511,25 @@ Size: 234200
 MD5sum: 21b6cc1e4b3f6499e1a91d1b5c911c76
 SHA1: a3be33218b102a5a95b7539f35ab5453b37dc113
 SHA256: c01544e1290b496ace25456c66598cde21c2ca59110458381a6adec98e852097
+
+Package: libglade2-0
+Source: libglade2
+Version: 1:2.6.4-2.4
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 177
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.14.0), libxml2 (>= 2.7.4)
+Section: oldlibs
+Priority: optional
+Multi-Arch: same
+Description: library to load .glade files at runtime
+ This library allows one to load externally stored user interfaces into
+ programs. This allows alteration of the interface without recompilation
+ of the program.
+ .
+ The interfaces can also be edited with GLADE.
+Filename: pool/main/libglade2-0_2.6.4-2.4_amd64.deb
+Size: 81220
+MD5sum: 927395f04ad301a32cd1ce29b5781932
+SHA1: 8479d57e3eec5fc75eb969df403cd5d47c9fad30
+SHA256: 30ad2dd61f0c47d6a76c22514cc5c2e9e99fb424176d464ce856c6ccff2ca34d
