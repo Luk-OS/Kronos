@@ -513,3 +513,18 @@ Size: 81220
 MD5sum: 927395f04ad301a32cd1ce29b5781932
 SHA1: 8479d57e3eec5fc75eb969df403cd5d47c9fad30
 SHA256: 30ad2dd61f0c47d6a76c22514cc5c2e9e99fb424176d464ce856c6ccff2ca34d
+
+Package: package-update-indicator
+Priority: extra
+Section: checkinstall
+Installed-Size: 220
+Maintainer: root@sthip-ms7b84
+Architecture: amd64
+Version: 9-1
+Provides: package-update-indicator
+Description: Package created with checkinstall 1.6.3
+Filename: pool/main/package-update-indicator_9-1_amd64.deb
+Size: 33672
+MD5sum: d3071f6cd531e70b181afc20efd9015f
+SHA1: 26e41e349b6a4c76b442d85bc4e2aa7fe2629769
+SHA256: 1ef772b552dc22745bae33853f8100da909c145cf76cc94f046a7f1f36f23445
