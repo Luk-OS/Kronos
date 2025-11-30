@@ -484,3 +484,30 @@ Size: 304624
 MD5sum: f18b19b42844f503496bd09160d609b4
 SHA1: d3456edd64be3f1ba36e650848c538c7288ef578
 SHA256: ee32a6c88c7c28a5be089ff223a69c08cc70e53fd4b9572c57c1196a8d2f06af
+
+Package: gtkdialog
+Version: 2:0.8.3-3mx17+1
+Architecture: amd64
+Bugs: mailto: <stevep@mxlinux.org>
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 794
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglade2-0 (>= 1:2.6.4-2~), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.18.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libvte9 (>= 1:0.28.0), libx11-6, libxext6, libxml2 (>= 2.6.27)
+Section: interpreters
+Priority: optional
+Description: GUI-creation command-line utility based on GTK+ library
+ Gtkdialog is a small utility for fast and easy GUI building. It can be used to
+ create dialog boxes for almost any interpreted and compiled programs which is
+ a very attractive feature since the developer does not have to learn various
+ GUI languages for the miscellaneous programming languages.
+ .
+ The Gtkdialog utility uses the Glade Library to load, parse and execute Glade
+ files. Gtkdialog makes the use of Glade created user interfaces convenient in
+ a shell script or any other interpreted language.
+ .
+ Stand-alone, bash, and awk examples are provided.
+Original-Maintainer: Mike Purtell (mmikeinsantarosa) <maintainer@mepiscommunity.org>
+Filename: pool/main/gtkdialog_0.8.3-3mx17+1_amd64.deb
+Size: 234200
+MD5sum: 21b6cc1e4b3f6499e1a91d1b5c911c76
+SHA1: a3be33218b102a5a95b7539f35ab5453b37dc113
+SHA256: c01544e1290b496ace25456c66598cde21c2ca59110458381a6adec98e852097
