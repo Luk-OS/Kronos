@@ -549,23 +549,6 @@ MD5sum: e10b2641da5f36a1eba346c0fecf1c2b
 SHA1: 9ef71506b3fef2ccd224ebb1ab6e153be24cadae
 SHA256: a70bebee7f095f6131c1105c37b23a4f0f132de139a25098ed1d75e65211bf72
 
-Package: mx-user
-Version: 25.5.01
-Architecture: amd64
-Maintainer: adrian <adrian@mxlinux.org>
-Installed-Size: 1104
-Depends: adduser, libzxcvbn0 (>= 0.20150103), mx-viewer | xdg-utils, rsync, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5.2)
-Section: system
-Priority: optional
-Homepage: https://github.com/mx-linux/mx-user
-Description: MX User manager
- The MX User Manager allows for easy administration of user accounts.
-Filename: pool/main/mx-user_25.5.01_amd64.deb
-Size: 217748
-MD5sum: 3ec25dba99d7be128899c7f30562305f
-SHA1: 966820b014a64ffaec90a6095bfeeab535b19f3b
-SHA256: aff571973898381d09ac74f38c00053f48bdc0a5322b9ba3949e68f6b82afad4
-
 Package: luk-os-user-manager
 Version: 1.0.0
 Architecture: all
