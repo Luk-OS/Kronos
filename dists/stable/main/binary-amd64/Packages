@@ -565,3 +565,17 @@ Size: 217748
 MD5sum: 3ec25dba99d7be128899c7f30562305f
 SHA1: 966820b014a64ffaec90a6095bfeeab535b19f3b
 SHA256: aff571973898381d09ac74f38c00053f48bdc0a5322b9ba3949e68f6b82afad4
+
+Package: luk-os-user-manager
+Version: 1.0.0
+Architecture: all
+Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
+Depends: 
+Section: admin
+Priority: optional
+Description: Sistema de gestion de usuarios grafico del sistema Luk-Os Sistema de gestion de usuarios grafico del sistema Luk-Os
+Filename: pool/main/luk-os-user-manager_1.0.0_all.deb
+Size: 3162508
+MD5sum: 3ee3ffb200a4099f98ab210fed1a3b90
+SHA1: 0040c1970077c81bcc79a202be7ee4fb8b2a325a
+SHA256: 20b68fad36b52470183272bd85d0699c2248915be4390cb0ddef218b62c13da7
