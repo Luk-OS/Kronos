@@ -2,13 +2,13 @@ Origin: Kronos
 Label: Kronos Apt
 Suite: stable
 Codename: stable
-Date: Tue, 02 Dec 2025 17:33:42 GMT
+Date: Tue, 02 Dec 2025 17:37:05 GMT
 Architectures: amd64
 Components: main
 Description: Hosted by Gestor APT Cloud
 MD5Sum:
- c214593a0800e59bd89b61ab1bf94f68 24958 main/binary-amd64/Packages
- ec821fedc949477414d6e273cbc73059 10438 main/binary-amd64/Packages.gz
+ 98dc57fab4453d3cc85c2170a842acb1 25977 main/binary-amd64/Packages
+ bb46f201a78e63c1206f6c8e9edb8b2c 10873 main/binary-amd64/Packages.gz
 SHA256:
- a9f3b9a9800260f91e4c87f269dfe0a4d08a56015376e4e715575e2301842f5f 24958 main/binary-amd64/Packages
- 04731fc126d553fdead4b61cf9834bb100ab1301513a2d203cc080ab006d9288 10438 main/binary-amd64/Packages.gz
+ 71ea1764dae5992d04e195a3ea8627520cfef9c82d3b1c39929255565a1583cb 25977 main/binary-amd64/Packages
+ d16eae4bd762e6dd508e99d79225158b13e4dd87b1c5701e037a28519380b09a 10873 main/binary-amd64/Packages.gz
