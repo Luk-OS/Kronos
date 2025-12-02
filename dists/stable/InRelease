@@ -5,29 +5,29 @@ Origin: Kronos
 Label: Kronos Apt
 Suite: stable
 Codename: stable
-Date: Tue, 02 Dec 2025 16:56:34 GMT
+Date: Tue, 02 Dec 2025 17:33:42 GMT
 Architectures: amd64
 Components: main
 Description: Hosted by Gestor APT Cloud
 MD5Sum:
- f9ef1f81c6b590f354383e5b83950c99 25977 main/binary-amd64/Packages
- bbef9817fc62a6efe91aa15c396e3005 10873 main/binary-amd64/Packages.gz
+ c214593a0800e59bd89b61ab1bf94f68 24958 main/binary-amd64/Packages
+ ec821fedc949477414d6e273cbc73059 10438 main/binary-amd64/Packages.gz
 SHA256:
- 42fd6fed9ce65836f1e6c28074e3871ffff7959262662bd7f20118d9a4659489 25977 main/binary-amd64/Packages
- 41982fef2e45834dd5ff44716ccde88c5dc063c7c421ce5151caa42bd82c5dee 10873 main/binary-amd64/Packages.gz
+ a9f3b9a9800260f91e4c87f269dfe0a4d08a56015376e4e715575e2301842f5f 24958 main/binary-amd64/Packages
+ 04731fc126d553fdead4b61cf9834bb100ab1301513a2d203cc080ab006d9288 10438 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEENN4DNo9hbN/PvBZr+Bi7SYNtvVEFAmkvGkQACgkQ+Bi7SYNt
-vVFTfhAAi3Wdy8rl/M8Wjmks7kVKlH9Bn+vNegygOKP6nR2L70B9UDMCrKsTyT0j
-FlDu/YNdANWR7iUeKWzXM/8gwW6cb7uwR1M0r4Tcc8ZXgNLcWS0qRChlqvyqYdrc
-CzQ92xktySowfYxuaUnauv+o7nAUS5Hc1sKVGuNOI0zah80wwDm0KYe7+trjsPNE
-bpHee0e1PUSud3qr9M0F9rcLNYsL/WMSJUwZbWZ+cIRWhNUV62DJFsmCeFurJAK5
-GhNc4O9Hn+HybDmsv888W4XWKSqN1RtKlsvnegZDhSzHhvZrumDEtHxuAlSkix1Q
-dGO62ZpzIofsB48n7n1+vn0epwy59+NRz+Q++5TB/bnf/rbjOx0qyh8IZpE+3qSX
-BnjmpHrh23pFWkU/I/PDqrPlwqG/myQ9LrccoGO/4Ny8Ny7rDyKCyyfQS7De+TdK
-7lmSoEk7JNXPRE4b4jddBL8s0uEcPeBQXygBdL+CuQwszBL1hsLhf3dffPJxY8Sf
-g43yASNcSqHcMxQ5BpRcZDolgfNxzkPolPxPa8ZWqKbBd6OZxsLR8TIs/+Uz3kWd
-15jGyoCO8DnrJp0RI2pFPyr39KrNrCqIIWIrTOfnsMy20GHUJqlDFvc1bjHEhzNo
-AbVyMkWlsmOnbh/r+WlwgMtia0wi+pReilmuUMS0+DVOSIxMK7I=
-=Fsm/
+iQIzBAEBCgAdFiEENN4DNo9hbN/PvBZr+Bi7SYNtvVEFAmkvIvgACgkQ+Bi7SYNt
+vVErAA//SAq2r6jgitroPuBpJ2Gd7TZiwgNXmsDcZwanek9W1YEMAyo5vtQhDhp+
+41bBtrk61qhlDcu+7mklR55UIC6B/kKjQhAs57ois0+wcAp52TS10ffaLZtt51Qk
+aIWDUnY+knT0Qg9ehjIOsVfzG3MkiO5O6P6+2OifNr0BAFhDzaJaVudmfY50PX8X
+UjMUg1pJQnaDP3mulTf/r4BGY0JS4wBl3UFnE2IBEQnsxa2ElAYm7DHV5YYtoygv
+ceZomHFxdAoKI2OJig6ivQ07AMUwuMn8tIch2xNe9JDiXB1NE614LwKyFkPNw0Tg
+aZXDrBQBFEvll58biK06FzeR+m7A1UnmTCHqbedcLkfLr8s5gLVeyijJ4K9YrmlJ
+M4lgCNPHWbNRNmsMR02l3mGAtNck36Fz8U5tHOPQfcKIFPFqVvxd4OgeadLR5/aE
+KTPiq8XuN9mvL0/hHzLmAtCubzNEbE9rH+4HPrTdXqR9OZjIiZC1e6lyqM1vTzdg
+LWETs5UBNREMiN/4gsXtkD+xS5OJ2WCUkbAN1UiQYfoBFEz1EQ41s0Og+s4wURdm
+Q2sy3dlgyvek3FdfuYq4DVyqyiQmG4ogJjkoLJGRgOIGF5SfbmOe5efgoHLsN6oZ
+Uji9d6gFYrRub2nZ3ZexDrhy2Tp4/ztSAeQzfulQ0kdURLX076s=
+=BsFL
 -----END PGP SIGNATURE-----
