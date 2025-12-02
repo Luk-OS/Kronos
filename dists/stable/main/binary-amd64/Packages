@@ -548,17 +548,3 @@ Size: 17641100
 MD5sum: e10b2641da5f36a1eba346c0fecf1c2b
 SHA1: 9ef71506b3fef2ccd224ebb1ab6e153be24cadae
 SHA256: a70bebee7f095f6131c1105c37b23a4f0f132de139a25098ed1d75e65211bf72
-
-Package: luk-os-user-manager
-Version: 1.0.0
-Architecture: all
-Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
-Depends: accountsservice, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, locales, mugshot, passwd, python3, python3-cairo, python3-gi
-Section: admin
-Priority: optional
-Description: Sistema de gestion de usuarios grafico del sistema Luk-Os Sistema de gestion de usuarios grafico del sistema Luk-Os
-Filename: pool/main/luk-os-user-manager_1.0.0_all.deb
-Size: 3086108
-MD5sum: 1097ce23cc4897d1f93c938fb7f9f142
-SHA1: 417315eb921ed1b7bd1b78e42f8b8d7302cbe10f
-SHA256: e7d57fcfd4ef6410571bfee982b863346c84cb263f6e9c1eaedd1eb3a17d8f23
