@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components origin="lukos-repo">
+  <component type="desktop-application">
+    <id>luk-os-user-manager</id>
+    <name>Gestor de Usuarios Luk-Os</name>
+    <summary>Sistema de gestion de usuarios grafico para Luk-Os</summary>
+    <description>
+      <p>Sistema de gestion de usuarios grafico para Luk-Os</p>
+    </description>
+    <developer_name>Aprende con Sthip</developer_name>
+    <url type="homepage">https://www.youtube.com/@AprendeConSthip</url>
+    <icon type="cached" width="64" height="64">luk-os-user-manager.png</icon>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.githubusercontent.com/Luk-OS/Kronos/main/appstream/luk-os-user-manager/screenshot_1.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://raw.githubusercontent.com/Luk-OS/Kronos/main/appstream/luk-os-user-manager/screenshot_2.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://raw.githubusercontent.com/Luk-OS/Kronos/main/appstream/luk-os-user-manager/screenshot_3.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://raw.githubusercontent.com/Luk-OS/Kronos/main/appstream/luk-os-user-manager/screenshot_4.png</image>
+      </screenshot>
+    </screenshots>
+    <launchable type="desktop-id">luk-os-user-manager.desktop</launchable>
+  </component>
+</components>
