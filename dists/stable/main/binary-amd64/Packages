@@ -506,3 +506,18 @@ Size: 3089256
 MD5sum: 0b8401fbc379f8ea4015dcdecdbd7589
 SHA1: 700f69a1a44576152a012daf31f1f01e7e0df4b7
 SHA256: 9e3cbad9712355498787fb4248c75d49f6953b0c5ed596228baa2eb3cdce0451
+
+Package: luk-os-updater
+Version: 1.0.0
+Architecture: all
+Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
+Depends: apt, gir1.2-ayatanaappindicator3-0.1, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3, python3-gi
+Section: admin
+Priority: optional
+Description: Sistema grafico de actualizaciones para Luk-Os
+ es una plataforma visual avanzada diseñada para gestionar, monitorear y ejecutar actualizaciones del sistema operativo con una combinación de claridad
+Filename: pool/main/luk-os-updater_1.0.0_all.deb
+Size: 1249456
+MD5sum: a99763a7ee86b4b63b4b1f361df906c0
+SHA1: 925f5f131ab04fcc508b89862d05af873bec94f3
+SHA256: 9a46e4ec1732dd37c34b218bc3510b681b49166a65e3494bfd8b80451c4d00c5
