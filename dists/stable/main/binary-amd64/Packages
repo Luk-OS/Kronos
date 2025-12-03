@@ -521,3 +521,18 @@ Size: 1249456
 MD5sum: a99763a7ee86b4b63b4b1f361df906c0
 SHA1: 925f5f131ab04fcc508b89862d05af873bec94f3
 SHA256: 9a46e4ec1732dd37c34b218bc3510b681b49166a65e3494bfd8b80451c4d00c5
+
+Package: luk-os-debify
+Version: 1.0.0
+Architecture: all
+Maintainer: Aprende con Sthip <aprendeconsthip@gmail.com>
+Depends: dpkg, gettext-base, python3-gi, python3-requests
+Section: utils
+Priority: optional
+Description: Herramienta simple y ágil para empaquetar a DEB
+ Empaquetador multifuncional diseñado para organizar, distribuir y desplegar proyectos escritos en Python, Bash y otros scripts SH.
+Filename: pool/main/luk-os-debify_1.0.0_all.deb
+Size: 130852
+MD5sum: 5a5fb35b28e121501dff65736a3bd125
+SHA1: 7f335fab69d39a7ca2230b74eff2b4b54a66b238
+SHA256: da3905a128ac48fb0dcd29385da94fc3afb9302b1a147de11fc8a7b3972df39b
