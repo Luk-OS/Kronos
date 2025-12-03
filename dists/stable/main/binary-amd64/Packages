@@ -212,31 +212,6 @@ SHA512: ed96fde047d994d7bdadb4558de9dac8f18da3201f510c1bc4f34a1d390dee27319220f0
 Description: Part of MX program for installing additional packages.
  provides .tweak files for mx-tweak
 
-Package: mx-tweak
-Architecture: amd64
-Version: 25.11.02mx25
-Priority: optional
-Section: admin
-Maintainer: dolphinoracle <dolphinoracle@gmail.com>
-Installed-Size: 2131
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libstdc++6 (>= 14), mx-viewer | xdg-utils, mx-tweak-data, libglib2.0-bin, qt6-svg-plugins
-Recommends: picom, picom-conf, preview-mx, mx-launcher-l10n
-Filename: pool/main/mx-tweak_25.11.02mx25_amd64.deb
-Size: 796964
-MD5sum: f22fac0acaab9e1ee5e868f085f9bf21
-SHA1: 75094048d16b0c4ee9a1a4840151f9842f7a1c3a
-SHA256: d8bd3fcd986fa586ae03f8f365477c510bb71ca4250ceefe85453d7047bb8578
-SHA512: a5d7e60f70140394a489b618e9f9e8650fdd0327674f7404a8cfb4d4c719011296111de7c339e14063faea3128225470e9ff313ebb82f8ef9c17ccce0c410960
-Homepage: https://github.com/MX-Linux/mx-tweak
-Description: Desktop configuration tool for MX Linux
- MX Tweak is a graphical utility that allows users to easily customize
- and configure the Xfce desktop environment in MX Linux. It provides
- a user-friendly interface for:
-  * Adjusting desktop appearance and behavior
-  * Configuring panel layouts and themes
-  * Fine-tuning system performance settings
-  * Managing compositor effects
-
 Package: neofetch
 Architecture: all
 Version: 7.1.0-4
