@@ -536,3 +536,25 @@ Size: 130852
 MD5sum: 5a5fb35b28e121501dff65736a3bd125
 SHA1: 7f335fab69d39a7ca2230b74eff2b4b54a66b238
 SHA256: da3905a128ac48fb0dcd29385da94fc3afb9302b1a147de11fc8a7b3972df39b
+
+Package: calamares-settings-luk-os
+Version: 6.0.0-1
+Architecture: all
+Maintainer: Aprende con Sthip
+Installed-Size: 3004
+Depends: calamares, cryptsetup, keyutils, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Section: utils
+Priority: optional
+Description: Luk OS theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides Luk OS artwork as well as scripts that support EFI
+ installations for Devuan Excalibur.
+ .
+ Created by Aprende con Sthip for Luk OS distribution.
+Filename: pool/main/calamares-settings-luk-os_6.0.0-1_all.deb
+Size: 2913216
+MD5sum: d89c13c5db7f8da0fd5924e66d9a7759
+SHA1: 8a58de3ce02704bcc8a679e64ab2d9bb1705b6cc
+SHA256: f3e8f3099aebf25689ac5d74f073189cb15fea436c0e1b89887015dcbb90d02c
